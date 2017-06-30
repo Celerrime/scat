@@ -1,4 +1,4 @@
-package: github.com/Roman2K/scat
+package: github.com/pbtrung/scat
 import:
 - package: github.com/lhecker/argon2
 - package: github.com/restic/chunker
