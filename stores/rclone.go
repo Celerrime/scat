@@ -7,11 +7,12 @@ import (
 	"fmt"
 	"os/exec"
 	"regexp"
+	// "strings"
 
-	"github.com/pbtrung/scat"
-	"github.com/pbtrung/scat/checksum"
-	"github.com/pbtrung/scat/procs"
-	"github.com/pbtrung/scat/tmpdedup"
+	"github.com/Roman2K/scat"
+	"github.com/Roman2K/scat/checksum"
+	"github.com/Roman2K/scat/procs"
+	"github.com/Roman2K/scat/tmpdedup"
 )
 
 var (
@@ -33,7 +34,10 @@ func (rc Rclone) Proc() procs.Proc {
 }
 
 func (rc Rclone) procCmd(_ *scat.Chunk, path string) (*exec.Cmd, error) {
-	cmd := exec.Command("rclone", "copy", path, rc.Remote, "-q")
+	cmd := exec.Command("rclone", "--no-traverse", "copy", path, rc.Remote, "-q")
+	// paths := strings.Split(rc.Remote, ":")
+	// s3Url := "s3://" + paths[1]
+	// cmd := exec.Command("s3cmd", "put", path, s3Url)
 	return cmd, nil
 }
 
