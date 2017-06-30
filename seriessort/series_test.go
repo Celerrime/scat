@@ -3,7 +3,7 @@ package seriessort_test
 import (
 	"testing"
 
-	"github.com/Roman2K/scat/seriessort"
+	"github.com/pbtrung/scat/seriessort"
 	assert "github.com/stretchr/testify/require"
 )
 

@@ -3,7 +3,7 @@ package procs
 import (
 	"sync"
 
-	"github.com/Roman2K/scat"
+	"github.com/pbtrung/scat"
 )
 
 type Chain []Proc

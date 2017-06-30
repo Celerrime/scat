@@ -10,7 +10,7 @@ import (
 	"time"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/Roman2K/scat/slidecnt"
+	"github.com/pbtrung/scat/slidecnt"
 )
 
 const (

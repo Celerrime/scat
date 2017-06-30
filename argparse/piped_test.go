@@ -6,7 +6,7 @@ import (
 
 	assert "github.com/stretchr/testify/require"
 
-	"github.com/Roman2K/scat/argparse"
+	"github.com/pbtrung/scat/argparse"
 )
 
 func TestArgPiped(t *testing.T) {

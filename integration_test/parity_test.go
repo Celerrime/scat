@@ -5,10 +5,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Roman2K/scat"
-	"github.com/Roman2K/scat/checksum"
-	"github.com/Roman2K/scat/procs"
-	"github.com/Roman2K/scat/stores"
+	"github.com/pbtrung/scat"
+	"github.com/pbtrung/scat/checksum"
+	"github.com/pbtrung/scat/procs"
+	"github.com/pbtrung/scat/stores"
 	"github.com/klauspost/reedsolomon"
 	assert "github.com/stretchr/testify/require"
 )

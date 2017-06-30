@@ -1,6 +1,6 @@
 package procs
 
-import "github.com/Roman2K/scat"
+import "github.com/pbtrung/scat"
 
 type DiscardChunks struct {
 	Proc

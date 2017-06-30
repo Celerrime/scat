@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/Roman2K/scat/checksum"
+	"github.com/pbtrung/scat/checksum"
 )
 
 type Dir struct {

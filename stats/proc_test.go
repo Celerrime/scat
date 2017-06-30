@@ -3,9 +3,9 @@ package stats_test
 import (
 	"testing"
 
-	"github.com/Roman2K/scat/procs"
-	"github.com/Roman2K/scat/stats"
-	"github.com/Roman2K/scat/testutil"
+	"github.com/pbtrung/scat/procs"
+	"github.com/pbtrung/scat/stats"
+	"github.com/pbtrung/scat/testutil"
 )
 
 func TestProcFinish(t *testing.T) {

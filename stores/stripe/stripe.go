@@ -4,14 +4,14 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/Roman2K/scat"
-	"github.com/Roman2K/scat/checksum"
-	"github.com/Roman2K/scat/concur"
-	"github.com/Roman2K/scat/procs"
-	"github.com/Roman2K/scat/stores"
-	"github.com/Roman2K/scat/stores/copies"
-	"github.com/Roman2K/scat/stores/quota"
-	"github.com/Roman2K/scat/stripe"
+	"github.com/pbtrung/scat"
+	"github.com/pbtrung/scat/checksum"
+	"github.com/pbtrung/scat/concur"
+	"github.com/pbtrung/scat/procs"
+	"github.com/pbtrung/scat/stores"
+	"github.com/pbtrung/scat/stores/copies"
+	"github.com/pbtrung/scat/stores/quota"
+	"github.com/pbtrung/scat/stripe"
 )
 
 type stripeP struct {

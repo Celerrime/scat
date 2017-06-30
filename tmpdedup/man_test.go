@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Roman2K/scat/tmpdedup"
+	"github.com/pbtrung/scat/tmpdedup"
 	assert "github.com/stretchr/testify/require"
 )
 

@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Roman2K/scat/argparse"
+	"github.com/pbtrung/scat/argparse"
 	assert "github.com/stretchr/testify/require"
 )
 

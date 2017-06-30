@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	assert "github.com/stretchr/testify/require"
-	"github.com/Roman2K/scat/stores/quota"
+	"github.com/pbtrung/scat/stores/quota"
 )
 
 func TestMan(t *testing.T) {

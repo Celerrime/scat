@@ -6,15 +6,15 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/Roman2K/scat"
-	ap "github.com/Roman2K/scat/argparse"
-	"github.com/Roman2K/scat/procs"
-	"github.com/Roman2K/scat/stats"
-	"github.com/Roman2K/scat/stores"
-	"github.com/Roman2K/scat/stores/quota"
-	storestripe "github.com/Roman2K/scat/stores/stripe"
-	"github.com/Roman2K/scat/stripe"
-	"github.com/Roman2K/scat/tmpdedup"
+	"github.com/pbtrung/scat"
+	ap "github.com/pbtrung/scat/argparse"
+	"github.com/pbtrung/scat/procs"
+	"github.com/pbtrung/scat/stats"
+	"github.com/pbtrung/scat/stores"
+	"github.com/pbtrung/scat/stores/quota"
+	storestripe "github.com/pbtrung/scat/stores/stripe"
+	"github.com/pbtrung/scat/stripe"
+	"github.com/pbtrung/scat/tmpdedup"
 )
 
 var chainBrackets = ap.Brackets{'{', '}'}

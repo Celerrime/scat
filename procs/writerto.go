@@ -3,7 +3,7 @@ package procs
 import (
 	"io"
 
-	"github.com/Roman2K/scat"
+	"github.com/pbtrung/scat"
 )
 
 type WriterTo struct {

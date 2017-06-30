@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Roman2K/scat/checksum"
+	"github.com/pbtrung/scat/checksum"
 )
 
 func Write(w io.Writer, hash checksum.Hash, size int) (int, error) {

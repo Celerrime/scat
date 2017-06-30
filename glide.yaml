@@ -1,5 +1,6 @@
 package: github.com/Roman2K/scat
 import:
+- package: github.com/lhecker/argon2
 - package: github.com/restic/chunker
 - package: github.com/stretchr/testify
   subpackages:

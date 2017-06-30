@@ -1,8 +1,8 @@
 package procs
 
 import (
-	"github.com/Roman2K/scat"
-	"github.com/Roman2K/scat/slots"
+	"github.com/pbtrung/scat"
+	"github.com/pbtrung/scat/slots"
 )
 
 type backlog struct {

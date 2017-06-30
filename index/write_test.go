@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/Roman2K/scat/index"
-	"github.com/Roman2K/scat/testutil"
+	"github.com/pbtrung/scat/index"
+	"github.com/pbtrung/scat/testutil"
 	assert "github.com/stretchr/testify/require"
 )
 

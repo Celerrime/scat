@@ -3,7 +3,7 @@ package copies
 import (
 	"sync"
 
-	"github.com/Roman2K/scat/checksum"
+	"github.com/pbtrung/scat/checksum"
 )
 
 type Reg struct {

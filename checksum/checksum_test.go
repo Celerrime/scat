@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Roman2K/scat/checksum"
+	"github.com/pbtrung/scat/checksum"
 	assert "github.com/stretchr/testify/require"
 )
 
