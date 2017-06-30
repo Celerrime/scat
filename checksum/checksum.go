@@ -32,7 +32,7 @@ func Sum(rd io.Reader) (cks Hash, err error) {
 
 	cfg := argon2.DefaultConfig()
 	cfg.HashLength = Size
-	cfg.TimeCost = 4
+	cfg.TimeCost = 6
 	cfg.MemoryCost = 1 << 16
 	cfg.Parallelism = 2
 	raw, err := cfg.Hash(cks[0:Size*3/4], cks[Size*3/4:])
