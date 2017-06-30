@@ -35,7 +35,7 @@ func Sum(rd io.Reader) (cks Hash, err error) {
 	cfg.TimeCost = 4
 	cfg.MemoryCost = 1 << 16
 	cfg.Parallelism = 2
-	raw, err := cfg.Hash(cks[0:Size*3/4-1], cks[Size*3/4:])
+	raw, err := cfg.Hash(cks[0:Size*3/4], cks[Size*3/4:])
 	if err != nil {
 		fmt.Printf("Error during hashing: %s\n", err.Error())
 		os.Exit(1)
