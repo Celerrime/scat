@@ -30,6 +30,7 @@ func Sum(rd io.Reader) (cks Hash, err error) {
 	}
 	hash.Sum(cks[:0])
 
+    // Argon2
 	cfg := argon2.DefaultConfig()
 	cfg.HashLength = Size
 	cfg.TimeCost = 4
